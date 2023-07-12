@@ -11,12 +11,14 @@
     "type": "git",
     "url": "swagger-node.js-rest-api-doc"
   },
-  "author": "mwangikibui",
+  "author": "alex",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
+    "imap": "^0.8.19",
     "lowdb": "^1.0.0",
+    "mailparser": "^3.6.5",
     "morgan": "^1.10.0",
     "nanoid": "^3.1.22",
     "nodemon": "^2.0.7",

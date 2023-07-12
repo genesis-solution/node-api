@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended:false}));
 app.use(morgan("dev"));
 app.use(cors());
-app.use('/todos',todoRouter);
+app.use('/',todoRouter);
 app.use('/api-docs',swaggerUI.serve,swaggerUI.setup(docs));
 
 //initialize the app.
